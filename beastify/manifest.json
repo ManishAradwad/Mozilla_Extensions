@@ -1,0 +1,23 @@
+{
+    "manifest_version" : 2,
+    "name" : "Beastify",
+    "version" : "1.0",
+    "description" : "Adds a browser action icon to the toolbar. Click the button to choose a beast. The body contents of the current tab will then be replaced by an image of that beast.",
+    "homepage_url" : "",
+    "icons" : {
+        "48" : "icons/beasts-48.png"
+    },
+    "permissions" : [
+        "activeTab"
+    ],
+    "browser-action" : {
+        "default_icon" : "icons/beastify-32.png",
+        "default_title" : "Beastify",
+        "default_popup" : "popup/choose_beast.html"
+    },
+    "web_accessible_resources" : [
+        "beasts/frog.jpg",
+        "beasts/turtle.jpg",
+        "beasts/snake.jpg"
+    ]
+}
