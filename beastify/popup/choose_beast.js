@@ -1,4 +1,4 @@
-const hidePage = `body > :not(.beastify.image) {
+const hidePage = `body > :not(.beastify-image) {
                      display: none; 
                   }`;
 

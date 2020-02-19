@@ -1,5 +1,5 @@
 html, body {
-    width: 100px;
+    width: 80px;
 }
 
 .hidden {
@@ -7,10 +7,10 @@ html, body {
 }
 
 .button {
-    margin: 3px auto;
+    margin: 3% auto;
     padding: 4px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     cursor: pointer;
 }
 
@@ -23,9 +23,9 @@ html, body {
 }
 
 .reset {
-    background-color: #fbfbc9;
+    background-color: #FBFBC9;
 }
 
 .reset:hover {
-    background-color: #eaea9d;
+    background-color: #EAEA9D;
 }

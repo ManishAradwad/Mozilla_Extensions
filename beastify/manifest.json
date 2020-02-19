@@ -3,15 +3,16 @@
     "name" : "Beastify",
     "version" : "1.0",
     "description" : "Adds a browser action icon to the toolbar. Click the button to choose a beast. The body contents of the current tab will then be replaced by an image of that beast.",
-    "homepage_url" : "",
+    "homepage_url" : "https://github.com/ManishAradwad/Mozilla_Extensions/tree/master/beastify",
     "icons" : {
-        "48" : "icons/beasts-48.png"
+        "48" : "icons/beasts-48.png",
+        "32" : "icons/beasts-32.png"
     },
     "permissions" : [
         "activeTab"
     ],
-    "browser-action" : {
-        "default_icon" : "icons/beastify-32.png",
+    "browser_action" : {
+        "default_icon" : "icons/beasts-32.png",
         "default_title" : "Beastify",
         "default_popup" : "popup/choose_beast.html"
     },
